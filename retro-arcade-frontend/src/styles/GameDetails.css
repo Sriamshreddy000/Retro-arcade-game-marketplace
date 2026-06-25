@@ -1,0 +1,106 @@
+/* Retro-arcade design for GameDetails */
+.game-details-container {
+  padding: 3rem 1rem;
+  background-color: #0b0c10;
+  min-height: 100vh;
+  color: #66fcf1;
+  font-family: 'Press Start 2P', cursive;
+}
+
+.retro-heading {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 1.25rem;
+  color: #45a29e;
+  text-shadow: 2px 2px #1f2833;
+}
+
+.game-card-detail {
+  display: flex;
+  flex-direction: column;
+  background-color: #1f2833;
+  border-radius: 12px;
+  padding: 2rem;
+  max-width: 900px;
+  margin: auto;
+  box-shadow: 0 0 20px #66fcf1;
+}
+
+.game-detail-img {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  border-radius: 8px;
+  border: 3px dashed #66fcf1;
+}
+
+.game-detail-text {
+  margin-top: 2rem;
+  text-align: center;
+}
+
+.detail-title {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.detail-description {
+  font-size: 0.7rem;
+  color: #c5c6c7;
+  margin-bottom: 1rem;
+}
+
+.game-genre {
+  font-size: 0.65rem;
+  color: #888;
+  margin-bottom: 1rem;
+}
+
+.detail-price {
+  font-size: 1rem;
+  color: #45a29e;
+  margin-bottom: 1.5rem;
+}
+
+.detail-buttons {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.btn {
+  padding: 0.7rem 1.2rem;
+  font-family: inherit;
+  font-size: 0.7rem;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+  box-shadow: 0 0 5px #66fcf1;
+}
+
+.buy-btn {
+  background-color: #66fcf1;
+  color: #0b0c10;
+}
+
+.cart-btn {
+  background-color: #c5c6c7;
+  color: #1f2833;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 12px #45a29e;
+}
+
+.loading-text,
+.error-text {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 3rem;
+  color: #66fcf1;
+}
