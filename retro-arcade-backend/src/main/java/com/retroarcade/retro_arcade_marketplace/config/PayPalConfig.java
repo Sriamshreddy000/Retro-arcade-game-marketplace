@@ -12,8 +12,8 @@ import java.util.Map;
 @Configuration
 public class PayPalConfig {
 
-    private static final String CLIENT_ID = "AXVychApK-LGtEmJxpGuuDCxsARkaBw8TPQQtMwoy0m2aU5yFXfxOdG7DojEdVzOE7RNlMZWXv-YMwZN";
-    private static final String CLIENT_SECRET = "EFyex_VAYLlts-YbItO5V8abgAlhdUgRM7bieuSQel5hYWHnSDJmntI4xOaLIlfEiapGCUIzDTDEnR8X";
+    private static final String CLIENT_ID = "";
+    private static final String CLIENT_SECRET = "";
     private static final String MODE = "sandbox"; // or "live"
 
     @Bean
